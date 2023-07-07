@@ -66,7 +66,7 @@ export default function Registration() {
                   <div>
                     <label
                       htmlFor="firstName"
-                      className="block text-sm font-medium leading-6 text-gray-900 px-2"
+                      className="block text-sm font-medium leading-6 text-gray-900"
                     >
                       First Name
                     </label>
