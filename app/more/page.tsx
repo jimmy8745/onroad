@@ -1,5 +1,4 @@
 import Features from "@/components/Features";
-import Cta from "@/components/Cta";
 import Packages from "@/components/Packages";
 import Testimonials from "@/components/Testimonials";
 
@@ -8,9 +7,6 @@ export default function LearnMore() {
     <>
       <span id="features">
         <Features />
-        {/* </span>
-         <span id="cta">
-         <Cta/> */}
       </span>
       <span id="packages">
         <Packages />
