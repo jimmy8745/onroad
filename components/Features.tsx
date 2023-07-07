@@ -1,31 +1,28 @@
 import Link from "next/link";
 import Image from "next/image";
-import Group28 from "@/public/assets/group28.svg"
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Specialized Programs',
-    description:
-      'Got your license or need specific training?',
+    name: "Specialized Programs",
+    description: "Got your license or need specific training?",
     icon: "/assets/group28.svg",
   },
   {
-    name: 'Free Lesson',
-    description: 'Get your government funded Keys2Drive lesson here.',
+    name: "Free Lesson",
+    description: "Get your government funded Keys2Drive lesson here.",
     icon: "/assets/group29.svg",
   },
   {
-    name: 'First Go Guarantee',
-    description: 'We’re so confident you’ll pass first time, we guarantee it!',
+    name: "First Go Guarantee",
+    description: "We’re so confident you’ll pass first time, we guarantee it!",
     icon: "/assets/group30.svg",
   },
   {
-    name: 'Prices and Packages',
-    description: 'Choose a package that’s right for you.',
+    name: "Prices and Packages",
+    description: "Choose a package that’s right for you.",
     icon: "/assets/group31.svg",
   },
-]
+];
 
 export default function Example() {
   return (
@@ -34,7 +31,7 @@ export default function Example() {
       <div className="mx-auto max-w-2xl mb-10">
         <div className="text-center">
           <h1 className="text-xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            COVERING ALL ASPECTS OF DRIVING TRAINING
+            Covering all aspects of driving training
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Our students are unique and so are our driving lessons. if you are
@@ -44,10 +41,10 @@ export default function Example() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="#cta"
+              href="#packages"
               className="rounded-md bg-[#407BBF] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#407BBF] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#407BBF]"
             >
-              Get more info
+              View packages
             </a>
             <Link
               href="/registration"
@@ -64,14 +61,22 @@ export default function Example() {
             <div className="lg:max-w-lg">
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
-                  <div key={feature.name} className="relative pl-9 flex items-center">
-                    <Image src={feature.icon} alt={feature.name} width={150} height={150} />
+                  <div
+                    key={feature.name}
+                    className="relative pl-9 flex items-center"
+                  >
+                    <Image
+                      src={feature.icon}
+                      alt={feature.name}
+                      width={150}
+                      height={150}
+                    />
                     <div className="">
                       <dt className="inline font-semibold text-gray-900">
-                      {feature.name}
-                    </dt>
-                    <br/>
-                    <dd className="inline">{feature.description}</dd>
+                        {feature.name}
+                      </dt>
+                      <br />
+                      <dd className="inline">{feature.description}</dd>
                     </div>
                   </div>
                 ))}
