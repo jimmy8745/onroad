@@ -13,7 +13,7 @@ export default function Registration() {
                     alt="onroad logo"
                 />
                 <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-                    Register now
+                    Registration Form
                 </h2>
             </Link>
         </div>
@@ -67,6 +67,39 @@ export default function Registration() {
                 />
               </div>
             </div>
+
+            <div>
+              <label htmlFor="age" className="block text-sm font-medium leading-6 text-gray-900">
+                State of origin
+              </label>
+              <div className="mt-2">
+                <input
+                  id="soo"
+                  name="soo"
+                  type="text"
+                  autoComplete="state"
+                  required
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#407BBF] sm:text-sm sm:leading-6"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label htmlFor="age" className="block text-sm font-medium leading-6 text-gray-900">
+                Age
+              </label>
+              <div className="mt-2">
+                <input
+                  id="age"
+                  name="age"
+                  type="number"
+                  autoComplete="age"
+                  required
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#407BBF] sm:text-sm sm:leading-6"
+                />
+              </div>
+            </div>
+
 
             <div>
               <label htmlFor="duration" className="block text-sm font-medium leading-6 text-gray-900">

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { gradient } from "@/components/Gradient";
+import Features from "@/components/Features"
 import { useEffect } from "react";
 
 export default function Home() {
@@ -11,6 +12,9 @@ export default function Home() {
   }, []);
 
   return (
+    <>
+
+    
     <AnimatePresence>
       <div className="min-h-[100vh] sm:min-h-screen w-screen flex flex-col relative bg-[#F2F3F5] font-inter overflow-hidden">
         <svg
@@ -102,37 +106,14 @@ excellent and professional team.
               }}
             >
               <Link
-                href="https://github.com/Tameyer41/liftoff"
-                target="_blank"
+                href="/more"
                 className="group rounded-full pl-[8px] min-w-[180px] pr-4 py-2 text-[13px] font-semibold transition-all flex items-center justify-center bg-[#1E2B3A] text-white hover:[linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), #0D2247] no-underline flex gap-x-2  active:scale-95 scale-100 duration-75"
                 style={{
                   boxShadow:
                     "0px 1px 4px rgba(13, 34, 71, 0.17), inset 0px 0px 0px 1px #061530, inset 0px 0px 0px 2px rgba(255, 255, 255, 0.1)",
                 }}
               >
-                <span className="w-5 h-5 rounded-full bg-[#407BBF] flex items-center justify-center">
-                  <svg
-                    className="w-[16px] h-[16px] text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M4.75 7.75C4.75 6.64543 5.64543 5.75 6.75 5.75H17.25C18.3546 5.75 19.25 6.64543 19.25 7.75V16.25C19.25 17.3546 18.3546 18.25 17.25 18.25H6.75C5.64543 18.25 4.75 17.3546 4.75 16.25V7.75Z"
-                    ></path>
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5.5 6.5L12 12.25L18.5 6.5"
-                    ></path>
-                  </svg>
-                </span>
-                Join mailing list
+                Learn more
               </Link>
             </motion.div>
             <motion.div
@@ -186,25 +167,7 @@ excellent and professional team.
           }}
         ></div>
 
-        <motion.canvas
-          initial={{
-            filter: "blur(20px)",
-          }}
-          animate={{
-            filter: "blur(0px)",
-          }}
-          transition={{
-            duration: 1,
-            ease: [0.075, 0.82, 0.965, 1],
-          }}
-          style={{
-            clipPath:
-              "polygon(100px 0,100% 0,calc(100% + 225px) 100%, 480px 100%)",
-          }}
-          id="gradient-canvas"
-          data-transition-in
-          className="z-50 fixed top-0 right-[-2px] w-[80%] md:w-1/2 h-screen bg-[#c3e4ff]"
-        ></motion.canvas>
+  
         <div className="sm:px-14 h-[60px] bg-[#1D2B3A] fixed bottom-0 z-20 w-full flex flex-row items-center justify-start">
           <p className="text-white/80 text-base md:text-lg font-semibold md:leading-[60px] whitespace-nowrap flex flex-row px-4">
             Sponsors
@@ -218,5 +181,6 @@ excellent and professional team.
         </div>
       </div>
     </AnimatePresence>
+    </>
   );
 }
