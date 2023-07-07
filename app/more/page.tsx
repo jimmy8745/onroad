@@ -1,7 +1,7 @@
-import Features from '@/components/Features.tsx'
-import Cta from '@/components/Cta.tsx'
-import Packages from '@/components/Packages.tsx'
-import Testimonials from '@/components/Testimonials.tsx'
+import Features from '@/components/Features'
+import Cta from '@/components/Cta'
+import Packages from '@/components/Packages'
+import Testimonials from '@/components/Testimonials'
 
 export default function LearnMore() {
     return <>
@@ -17,9 +17,5 @@ export default function LearnMore() {
          <span id="testimonials">
         <Testimonials/>
         </span>
-      
-       
-      
-        
     </>
 }
