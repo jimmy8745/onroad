@@ -54,7 +54,7 @@ export default function Home() {
                   className="relative md:ml-[-10px] md:mb-[37px] font-extrabold text-[14vw] md:text-[90px] font-inter text-[#1E2B3A] leading-[0.9] tracking-[-2px] z-[100]"
                 >
                   <span className="md:text-[vw]">
-                    Nigeria's leading{" "}
+                    Nigeria&apos;s leading{" "}
                     <span className="text-lg md:text-xl">experts</span>
                   </span>
                   <br />
@@ -79,9 +79,9 @@ export default function Home() {
                       About us.
                     </h2>
                     <p className="text-[14px] leading-[20px] text-[#1a2b3b] font-normal">
-                      Nigeria’s leading experts in driver education will provide
-                      you with the skills required to be a safe and confident
-                      driver for life.
+                      Nigeria&apos;s leading experts in driver education will
+                      provide you with the skills required to be a safe and
+                      confident driver for life.
                     </p>
                   </div>
                   <div className="w-1/2">
