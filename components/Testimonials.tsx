@@ -15,7 +15,7 @@ export default function Example() {
               &quot;Shabi was extremely helpful in pointing out little things
               that needed to be tweaked with my driving and how to feel the path
               of the car rather than using theories that are being taught. this
-              has allowed me to pass my P’s test and made me a better
+              has allowed me to pass my P&apos;s test and made me a better
               driver.&quot;
             </p>
           </blockquote>
