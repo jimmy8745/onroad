@@ -35,7 +35,6 @@ export default function Home() {
                     ease: [0.165, 0.84, 0.44, 1],
                   }}
                   className="block w-[200px] row-start-2 mb-8 md:mb-6"
-                  viewBox="0 0 87 15"
                 >
                   ONROAD |{" "}
                   <span className="font-inter text-[#407BBF] text-sm">
