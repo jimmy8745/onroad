@@ -22,7 +22,9 @@ export const metadata: Metadata = {
     images: ["/logo.svg"],
     creator: "@jimo",
   },
-  metadataBase: new URL("https://demo.useliftoff.com"),
+  metadataBase: new URL(
+    "https://res.cloudinary.com/enthusiasm/image/upload/f_auto,q_auto/v1/onroad/k9allvaylqtz9yis18i3"
+  ),
   themeColor: "#FFF",
 };
 
