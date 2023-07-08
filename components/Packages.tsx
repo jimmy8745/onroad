@@ -38,15 +38,15 @@ export default function Example() {
                 1 month refresher series
               </h3>
               <p className="mt-6 text-base leading-7 text-gray-600">
-                Nigeria’s leading experts in driver education will provide you
-                with the skills required to be a safe and confident driver for
-                life. We offer a wide range of driving lessons and pride
+                Nigeria&apos;s leading experts in driver education will provide
+                you with the skills required to be a safe and confident driver
+                for life. We offer a wide range of driving lessons and pride
                 ourselves in delivering quality education with an excellent and
                 professional team.
               </p>
               <div className="mt-10 flex items-center gap-x-4">
                 <h4 className="flex-none text-sm font-semibold leading-6 text-[#407BBF]-600">
-                  What’s included
+                  What&apos;s included
                 </h4>
                 <div className="h-px flex-auto bg-gray-100" />
               </div>
@@ -100,15 +100,15 @@ export default function Example() {
                 3 months training series
               </h3>
               <p className="mt-6 text-base leading-7 text-gray-600">
-                Nigeria’s leading experts in driver education will provide you
-                with the skills required to be a safe and confident driver for
-                life. We offer a wide range of driving lessons and pride
+                Nigeria&apos;s leading experts in driver education will provide
+                you with the skills required to be a safe and confident driver
+                for life. We offer a wide range of driving lessons and pride
                 ourselves in delivering quality education with an excellent and
                 professional team.
               </p>
               <div className="mt-10 flex items-center gap-x-4">
                 <h4 className="flex-none text-sm font-semibold leading-6 text-[#407BBF]-600">
-                  What’s included
+                  What&apos;s included
                 </h4>
                 <div className="h-px flex-auto bg-gray-100" />
               </div>
@@ -162,15 +162,15 @@ export default function Example() {
                 6 months training series
               </h3>
               <p className="mt-6 text-base leading-7 text-gray-600">
-                Nigeria’s leading experts in driver education will provide you
-                with the skills required to be a safe and confident driver for
-                life. We offer a wide range of driving lessons and pride
+                Nigeria&apos;s leading experts in driver education will provide
+                you with the skills required to be a safe and confident driver
+                for life. We offer a wide range of driving lessons and pride
                 ourselves in delivering quality education with an excellent and
                 professional team.
               </p>
               <div className="mt-10 flex items-center gap-x-4">
                 <h4 className="flex-none text-sm font-semibold leading-6 text-[#407BBF]-600">
-                  What’s included
+                  What&apos;s included
                 </h4>
                 <div className="h-px flex-auto bg-gray-100" />
               </div>
