@@ -1,16 +1,9 @@
 "use client";
-
 import Link from "next/link";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
-import { gradient } from "@/components/Gradient";
-import { useEffect } from "react";
 
 export default function Home() {
-  useEffect(() => {
-    gradient.initGradient("#gradient-canvas");
-  }, []);
-
   return (
     <>
       <div className="flex">

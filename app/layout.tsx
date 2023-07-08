@@ -3,24 +3,24 @@ import { Metadata } from "next";
 import NavBar from "@/components/NavBar";
 
 export const metadata: Metadata = {
-  title: "Liftoff - AI-Powered Mock Interviews",
+  title: "ONROAD | Driving Education",
   openGraph: {
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "ONROAD | Driving Education",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
+      "Nigeria’s leading experts in driver education will provide you with the skills required to be a safe and confident driver for life.",
     images: [
       {
-        url: "https://demo.useliftoff.com/opengraph-image",
+        url: "/logo.svg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "ONROAD | Driving Education",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
-    images: ["https://demo.useliftoff.com/opengraph-image"],
-    creator: "@tmeyer_me",
+      "Nigeria’s leading experts in driver education will provide you with the skills required to be a safe and confident driver for life.",
+    images: ["/logo.svg"],
+    creator: "@jimo",
   },
   metadataBase: new URL("https://demo.useliftoff.com"),
   themeColor: "#FFF",
@@ -34,7 +34,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className="scroll-smooth antialiased [font-feature-settings:'ss01']">
-        <NavBar/>
+        <NavBar />
         {children}
       </body>
     </html>
