@@ -1,19 +1,19 @@
-"use client"
+"use client";
 
 import Link from "next/link";
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Fragment } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: 'Learn more', href: '/more', current: false },
-  { name: 'Info', href: '/more#cta', current: false },
-  { name: 'Testimonial', href: '/more#testimonials', current: false },
-  { name: 'Packages', href: '/more#packages', current: false },
-]
+  { name: "Learn more", href: "/more", current: false },
+  { name: "Testimonial", href: "/more#testimonials", current: false },
+  { name: "Package", href: "/more#packages", current: false },
+  { name: "Online course", href: "https://wa.link/a7tr23", current: false },
+];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Example() {
@@ -37,18 +37,17 @@ export default function Example() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <Link href="/">
-                  <img
-                    className="block h-8 w-auto lg:hidden"
-                    src="/logo.svg"
-                    alt="Onroad"
-                  />
-                  <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="/logo.svg"
-                    alt="Onroad"
-                  />
+                    <img
+                      className="block h-8 w-auto lg:hidden"
+                      src="/logo.svg"
+                      alt="Onroad"
+                    />
+                    <img
+                      className="hidden h-8 w-auto lg:block"
+                      src="/logo.svg"
+                      alt="Onroad"
+                    />
                   </Link>
-                  
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
@@ -57,10 +56,12 @@ export default function Example() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
+                          item.current
+                            ? "bg-gray-900 text-white"
+                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                          "rounded-md px-3 py-2 text-sm font-medium"
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
                       </a>
@@ -79,10 +80,12 @@ export default function Example() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block rounded-md px-3 py-2 text-base font-medium'
+                    item.current
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                    "block rounded-md px-3 py-2 text-base font-medium"
                   )}
-                  aria-current={item.current ? 'page' : undefined}
+                  aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
@@ -92,5 +95,5 @@ export default function Example() {
         </>
       )}
     </Disclosure>
-  )
+  );
 }
