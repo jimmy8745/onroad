@@ -3,9 +3,9 @@ import { Metadata } from "next";
 import NavBar from "@/components/NavBar";
 
 export const metadata: Metadata = {
-  title: "ONROAD | Driving Education",
+  title: "WeMakeBetterDrivers | Driving Education",
   openGraph: {
-    title: "ONROAD | Driving Education",
+    title: "WeMakeBetterDrivers | Driving Education",
     description:
       "Nigeria’s leading experts in driver education will provide you with the skills required to be a safe and confident driver for life.",
     images: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ONROAD | Driving Education",
+    title: "WeMakeBetterDrivers | Driving Education",
     description:
       "Nigeria’s leading experts in driver education will provide you with the skills required to be a safe and confident driver for life.",
     images: ["/logo.svg"],
