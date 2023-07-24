@@ -36,7 +36,7 @@ export default function Home() {
                   }}
                   className="block w-[200px] row-start-2 mb-8 md:mb-6"
                 >
-                  ONROAD |{" "}
+                  WeMakeBetterDrivers |{" "}
                   <span className="font-inter text-[#407BBF] text-sm">
                     Driving Education
                   </span>
